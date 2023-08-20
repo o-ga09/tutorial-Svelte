@@ -1,6 +1,6 @@
 # tutorial Svelte + Sveltekit
 
-Svelte + Sveltekitで何か作ってみおるリポジトリ
+Svelte + Sveltekitで何か作ってみるリポジトリ
 
 ## 作るもの
 
