@@ -1,38 +1,65 @@
-# create-svelte
+# tutorial Svelte + Sveltekit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Svelte + Sveltekitで何か作ってみおるリポジトリ
 
-## Creating a project
+## 作るもの
 
-If you're seeing this, you've probably already done this step. Congrats!
+ウイスキー初心者のための第一歩のアプリ
+【WiLove】
+
+Wiskey + Love = ウイ　＋　好き(＝Love)　＝　WiLove
+
+## 要件
+
+- MVP1 : ***飲んだウイスキーの種類を記録できる***
+- MVP2 : ***どこで飲んだか記録できる***
+- MVP3 : ***どんなウイスキーがあるのか探すことがができる***
+
+## デザイン
+
+- UI/UXを考えて、ユーザーが気持ちよくなるデザインにする
+- Figmaを使用してワイヤーフレームから考える
+
+WIP
+
+## 構成要素
+
+- エンティティ
+  - ユーザ
+    - uid
+    - user_name
+    - password
+  - ウイスキー
+    - w_id
+    - w_name
+    - w_place
+    - w_year
+    - w_fav_rate
+
+## プロジェクトの始め方
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/o-ga09/tutorial-Svelte.git
+cd tutorial-Svelte
+npm i
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 開発サーバの起動
 
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
 
-## Building
+## テスト
 
-To create a production version of your app:
+```bash
+npm run test
+```
+
+## ビルド
 
 ```bash
 npm run build
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
