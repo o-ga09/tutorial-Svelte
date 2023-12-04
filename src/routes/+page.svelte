@@ -1,6 +1,4 @@
 <script>
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
@@ -8,14 +6,10 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		Hello World !
-	</h1>
-
-</section>
+<h1>Hello World !</h1>
 
 <style>
-/* each page style */
-
+	h1 {
+		text-align: center;
+	}
 </style>

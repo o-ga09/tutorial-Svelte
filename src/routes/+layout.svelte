@@ -1,19 +1,20 @@
 <script>
-	import Header from './Header.svelte';
+	import './styles.css';
 </script>
 
 <div class="app">
-	<Header />
-
 	<main>
 		<slot />
 	</main>
-
-	<footer>
-		<p>&copy; 2023</p>
-	</footer>
 </div>
 
 <style>
-/* root layout style */
+	/* root layout style */
+	main {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100vh;
+	}
 </style>
